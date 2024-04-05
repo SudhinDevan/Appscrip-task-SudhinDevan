@@ -9,12 +9,12 @@ const ProductCard = (props) => {
 
   return (
     <>
-      <div className="w-72 h-[350px] m-5 flex flex-col items-center">
+      <div className="md:w-72 md:h-[350px] md:m-5 flex flex-col items-center w-48 h-[225px] p-2 md:p-0">
         <div>
           <img
             src={props.productImage}
             alt="Product Image"
-            className="w-60 h-72 object-contain"
+            className="md:w-60 md:h-72 object-contain w-32 h-36 p-2 md:p-0"
           />
         </div>
         <div className="justify-center w-full">

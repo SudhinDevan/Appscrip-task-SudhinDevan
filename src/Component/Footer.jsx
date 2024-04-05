@@ -5,7 +5,7 @@ import Links from "./Links";
 const Footer = () => {
   return (
     <>
-      <div className="bg-black w-full h-[660px]">
+      <div className="bg-black w-full h-full pb-3">
         <ContactSection />
         <div className="px-32">
           <HorizontalLine />

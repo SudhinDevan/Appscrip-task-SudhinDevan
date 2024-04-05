@@ -1,7 +1,7 @@
 const MenuItems = () => {
   return (
     <>
-      <div className="font-semibold text-xl flex justify-center p-5 gap-12">
+      <div className="font-semibold text-xl justify-center p-5 gap-12 hidden md:flex">
         <h1>SHOP</h1>
         <h1>SKILLS</h1>
         <h1>STORIES</h1>
